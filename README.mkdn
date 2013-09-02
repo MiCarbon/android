@@ -3,6 +3,7 @@ MiCarbon Source
 MiCarbon 开放源代码
 ===================
 Getting Started
+---------------
 开始工作
 ---------------
 To get started with MiCarbon sources, you'll need to get
@@ -10,6 +11,7 @@ familiar with [Git and Repo](http://source.android.com/source/version-control.ht
 
 
 Create the Directories
+----------------------
 创建目录
 ----------------------
 
@@ -17,6 +19,8 @@ You will need to set up some directories in your build environment.
 你需要在你的编译环境中先设置某些目录
 To create them run:
 请打开终端并运行:
+
+
     mkdir -p ~/bin
     mkdir -p ~/carbon
 
