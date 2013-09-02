@@ -1,27 +1,32 @@
 MiCarbon Source
 ===================
-
+MiCarbon 开放源代码
+===================
 Getting Started
+开始工作
 ---------------
 To get started with MiCarbon sources, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
 
 Create the Directories
+创建目录
 ----------------------
 
 You will need to set up some directories in your build environment.
-
+你需要在你的编译环境中先设置某些目录
 To create them run:
-
+请打开终端并运行:
     mkdir -p ~/bin
     mkdir -p ~/carbon
 
 
 Install the Repository
+安装"Repo"
 ----------------------
 
 Enter the following to download make executable the "repo" binary:
+接着输入以下命令来下载make可执行程序"repo"二进制文件
 
     curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
 
@@ -29,14 +34,17 @@ Enter the following to download make executable the "repo" binary:
 
 You may need to reboot for these changes to take effect. 
 Now enter the following to initialize the repository:
-
+你可能需要重启才能进行下一步操作
+现在输入下面的字符来初始化仓库
     cd ~/carbon
 
 
 Repositories:
+仓库
 ---------------
 
 Before you continue --> run this in the terminal
+在你继续之前 --> 请在终端中运行以下命令
 ----------------------------------------
     repo init -u https://github.com/MiCarbon/android.git -b jb3 && repo sync -f
 
