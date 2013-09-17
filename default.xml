@@ -26,7 +26,7 @@
            fetch="https://bitbucket.org/" 
            sync-j="4" />
 
-  <default revision="refs/tags/android-4.3_r2.2"
+  <default revision="refs/tags/android-4.3_r3"
            remote="aosp"
            sync-j="4" />
 
@@ -399,7 +399,7 @@
   <project path="system/core" name="android_system_core" remote="cr" revision="jb3" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="system/netd" name="android_system_netd" remote="cr" revision="jb3" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
