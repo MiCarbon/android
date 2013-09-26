@@ -255,7 +255,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cr" revision="jb43" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cr" revision="jb3" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="cm" revision="cm-10.2" />
@@ -276,7 +276,7 @@
   <project path="hardware/qcom/display-legacy" name="LOSP/android_hardware_qcom_display-legacy" remote="gh" revision="jb43" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/display-caf" name="LOSP/android_hardware_qcom_display-caf" remote="gh" revision="jb43" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cr" revision="cm-10.2" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/media" name="LOSP/hardware_qcom_media" remote="gh" revision="jb43" />
   <project path="hardware/qcom/media-caf" name="LOSP/android_hardware_qcom_media-caf" remote="gh" revision="jb43" />
