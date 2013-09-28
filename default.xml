@@ -36,7 +36,6 @@
   <project path="android" name="android" remote="cr" revision="jb3" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="cr" revision="jb3" groups="pdk" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
@@ -279,6 +278,7 @@
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/media" name="LOSP/hardware_qcom_media" remote="gh" revision="jb43" />
   <project path="hardware/qcom/media-caf" name="LOSP/android_hardware_qcom_media-caf" remote="gh" revision="jb43" />
+  <project path="hardware/qcom/media-legacy" name="LOSP/android_hardware_qcom_media-legacy" remote="gh" revision="jb43" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="cm" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
