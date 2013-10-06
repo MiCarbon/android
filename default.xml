@@ -416,6 +416,7 @@
   <!-- MiCarbon Devices -->
   <project path="device/xiaomi/mione_plus" name="android_device_xiaomi_mione_plus" remote="cr" revision="cm-10.2" />
   <project path="device/xiaomi/msm8660-common" name="LOSP/android_device_xiaomi_msm8660-common" remote="gh" revision="jb43" />
+  <project path="hardware/qcom/aries" name="LOSP/android_hardware_qcom_audio-aries" remote="gh" revision="jb43" />
   <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" remote="gh" revision="jb43" />
   <project path="vendor/qcom" name="LOSP/proprietary_vendor_qcom" remote="gh" revision="jb43" />
   <project path="vendor/broadcom" name="LOSP/proprietary_vendor_broadcom" remote="gh" revision="jb43" />
