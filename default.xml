@@ -271,6 +271,7 @@
   <project path="hardware/qcom/display-legacy" name="LOSP/android_hardware_qcom_display-legacy" remote="gh" revision="jb43" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/display-caf" name="LOSP/android_hardware_qcom_display-caf" remote="gh" revision="jb43" />
+  <project path="hardware/qcom/display-caf-legacy" name="iptux/android_hardware_qcom_display-caf-legacy" remote="gh" revision="jb-k3.4" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cr" revision="cm-10.2" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/media" name="LOSP/hardware_qcom_media" remote="gh" revision="jb43" />
