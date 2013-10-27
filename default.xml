@@ -35,7 +35,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="cm" revision="cm-10.2" />
+  <project path="dalvik" name="CarbonDev/android_dalvik" remote="gh" revision="jb3" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -280,7 +280,7 @@
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/CarbonFibers" name="android_packages_apps_CarbonFibers" remote="cr" revision="jb3" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
+  <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cr" revision="jb3" />
