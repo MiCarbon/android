@@ -262,28 +262,12 @@
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-10.2" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cr" revision="jb3" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="LOSP/android_hardware_qcom_audio-caf" remote="gh" revision="jb43" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display-legacy" name="LOSP/android_hardware_qcom_display-legacy" remote="gh" revision="jb43" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/display-caf" name="LOSP/android_hardware_qcom_display-caf" remote="gh" revision="jb43" />
-  <project path="hardware/qcom/display-caf-legacy" name="LOSP/hardware_qcom_display-legacy-caf" remote="gh" revision="jb43" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cr" revision="cm-10.2" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/media" name="LOSP/hardware_qcom_media" remote="gh" revision="jb43" />
-  <project path="hardware/qcom/media-caf" name="LOSP/android_hardware_qcom_media-caf" remote="gh" revision="jb43" />
-  <project path="hardware/qcom/media-legacy" name="LOSP/android_hardware_qcom_media-legacy" remote="gh" revision="jb43" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
-  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="cm" revision="cm-10.2" groups="qcom" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
+  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="cm" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="cm" revision="cm-10.2" />
-  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-10.2" groups="exynos5" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.2" />
   <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-10.2" />
@@ -307,7 +291,6 @@
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="gh" revision="jb4.3" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cr" revision="jb3" />
-  <project path="packages/apps/HALO" name="UltimatumKang/HALO" remote="gh" revision="master" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.2" />
@@ -412,6 +395,24 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="gh" revision="jb-mr2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="gh" revision="jb-mr2" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
+  <!-- Apps -->
+  <project path="packages/apps/HALO" name="UltimatumKang/HALO" remote="gh" revision="jellybean" />
+  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="cr" revision="jb3" />
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cr" revision="jb3" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-10.2" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="LOSP/android_hardware_qcom_audio-caf" remote="gh" revision="jb43" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
+  <project path="hardware/qcom/display-legacy" name="LOSP/android_hardware_qcom_display-legacy" remote="gh" revision="jb43" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/display-caf" name="LOSP/android_hardware_qcom_display-caf" remote="gh" revision="jb43" />
+  <project path="hardware/qcom/display-caf-legacy" name="LOSP/hardware_qcom_display-legacy-caf" remote="gh" revision="jb43" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cr" revision="cm-10.2" />
+  <project path="hardware/qcom/media" name="LOSP/hardware_qcom_media" remote="gh" revision="jb43" />
+  <project path="hardware/qcom/media-caf" name="LOSP/android_hardware_qcom_media-caf" remote="gh" revision="jb43" />
+  <project path="hardware/qcom/media-legacy" name="LOSP/android_hardware_qcom_media-legacy" remote="gh" revision="jb43" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <!-- MiCarbon Devices -->
   <project path="device/xiaomi/mione_plus" name="android_device_xiaomi_mione_plus" remote="cr" revision="cm-10.2" />
   <project path="device/xiaomi/msm8660-common" name="LOSP/android_device_xiaomi_msm8660-common" remote="gh" revision="jb43" />
