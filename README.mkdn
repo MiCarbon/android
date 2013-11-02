@@ -56,10 +56,9 @@ Before you continue --> run this in the terminal
 在你继续之前 --> 请在终端中运行以下命令
 ----------------------------------------
 
-    repo init -u https://github.com/MiCarbon/android.git -b jb3 && repo sync -f
+    repo init -u https://github.com/MiCarbon/android.git -b kk && repo sync -f
 
-*PLEASE NOTE THAT YOU MUST USE THE -f flag when repo syncing/initializing if you want to sync with our default -j4 setup as android.googlesource seems to like to reject your requests if you set your -jflag too high. 
-if you wish to avoid this issue run it repo sync -j1 otherwise -f (force) is reccomended so it will resync the repos it gets error codes on. Thank you and have a nice day.*
+*由于GFW对Google source的封锁，所以加入-f命令来防止同步遇到错误时停止*
 
 
 Building the System
