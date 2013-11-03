@@ -26,10 +26,10 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="cr" revision="jb3" groups="pdk" >
+  <project path="build" name="android_build" remote="cr" revision="kk" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="android" remote="cr" revision="jb3" />
+  <project path="android" name="android" remote="cr" revision="kk" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -339,7 +339,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cr" revision="jb3" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cr" revision="kk" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -406,10 +406,10 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="android_system_core" remote="cr" revision="jb3" groups="pdk" />
-  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/core" name="android_system_core" remote="cr" revision="kk" groups="pdk" />
+  <project path="system/extras" name="platform/system/extras" remote="cr" revision="kk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="android_system_netd" remote="cr" revision="jb3" />
+  <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="cm" revision="cm-10.2" groups="qcom" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="cm-10.2" groups="pdk" />
@@ -423,11 +423,11 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/carbon" name="android_vendor_carbon" remote="cr" revision="jb3" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="jb-mr2" />
+  <project path="vendor/carbon" name="android_vendor_carbon" remote="cr" revision="kk" />
+<!--  <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="jb-mr2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="gh" revision="jb-mr2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="gh" revision="jb-mr2" />
-  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
+  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" /> -->
   <!-- Apps -->
   <project path="packages/apps/HALO" name="UltimatumKang/HALO" remote="gh" revision="jellybean" />
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="cr" revision="android-4.3" />
