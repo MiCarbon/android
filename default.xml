@@ -32,8 +32,9 @@
   <project path="android" name="android" remote="cr" revision="jb3" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
@@ -274,7 +275,6 @@
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
@@ -282,26 +282,27 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cr" revision="jb3" />
-  <project path="frameworks/opt/telephony-msim" name="CyanogenMod/android_frameworks_opt_telephony-msim" remote="cm" revision="cm-10.2" />
-  <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-10.2" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
-  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="cm" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-10.2" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -435,9 +436,7 @@
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cr" revision="jb3" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="LOSP/android_hardware_qcom_audio-caf" remote="gh" revision="jb43" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/display-legacy" name="LOSP/android_hardware_qcom_display-legacy" remote="gh" revision="jb43" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" />
   <project path="hardware/qcom/display-caf" name="LOSP/android_hardware_qcom_display-caf" remote="gh" revision="jb43" />
   <project path="hardware/qcom/display-legacy-caf" name="LOSP/hardware_qcom_display-legacy-caf" remote="gh" revision="jb43" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cr" revision="cm-10.2" />
