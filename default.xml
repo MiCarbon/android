@@ -435,7 +435,7 @@
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="cr" revision="android-4.3" />
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cr" revision="jb3" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="LOSP/android_hardware_qcom_audio-caf" remote="gh" revision="kk" />
   <project path="hardware/qcom/display" name="LOSP/hardware_qcom_display" remote="gh" revision="kk" />
