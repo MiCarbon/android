@@ -441,7 +441,7 @@
   <project path="hardware/qcom/display" name="LOSP/hardware_qcom_display" remote="gh" revision="kk" />
   <project path="hardware/qcom/display-legacy" name="LOSP/android_hardware_qcom_display-legacy" remote="gh" revision="kk" />
   <project path="hardware/qcom/display-legacy-caf" name="LOSP/hardware_qcom_display-legacy-caf" remote="gh" revision="kk" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cr" revision="kk" groups="pdk" >
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cr" revision="kk" groups="pdk" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf" name="LOSP/android_hardware_qcom_media-caf" remote="gh" revision="jb43" />
   <project path="hardware/qcom/media-legacy" name="LOSP/android_hardware_qcom_media-legacy" remote="gh" revision="kk" />
