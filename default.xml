@@ -271,7 +271,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="cr" revision="kk" groups="pdk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -455,7 +455,7 @@
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="cm" revision="cm-11.0" groups="qcom_msm8960" />
   <!-- MiCarbon Devices -->
   <project path="device/xiaomi/mione_plus" name="android_device_xiaomi_mione_plus" remote="cr" revision="kk" />
-  <project path="device/xiaomi/msm8660-common" name="LOSP/android_device_xiaomi_msm8660-common" remote="gh" revision="kk" />
+  <project path="device/xiaomi/msm8660-common" name="android_device_xiaomi_msm8660-common" remote="cr" revision="kk" />
 <!--  <project path="hardware/qcom/aries" name="LOSP/android_hardware_qcom_audio-aries" remote="gh" revision="kk" /> -->
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="cr" revision="kk" />
   <project path="vendor/qcom" name="LOSP/proprietary_vendor_qcom" remote="gh" revision="jb43" />
