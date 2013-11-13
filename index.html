@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>MiCarbon SP by MiCarbon</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">MiCarbon SP</h1>
+        <p class="header">小米1系列ROM</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/MiCarbon/android/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/MiCarbon/android/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/MiCarbon/android">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/MiCarbon">MiCarbon</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a name="micarbon-source" class="anchor" href="#micarbon-source"><span class="octicon octicon-link"></span></a>MiCarbon Source</h1>
+
+<h1>
+<a name="micarbon-%E6%BA%90%E4%BB%A3%E7%A0%81%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B" class="anchor" href="#micarbon-%E6%BA%90%E4%BB%A3%E7%A0%81%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B"><span class="octicon octicon-link"></span></a>MiCarbon 源代码简易教程</h1>
+
+<h2>
+<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
+
+<h2>
+<a name="1%E5%BC%80%E5%A7%8B%E5%B7%A5%E4%BD%9C" class="anchor" href="#1%E5%BC%80%E5%A7%8B%E5%B7%A5%E4%BD%9C"><span class="octicon octicon-link"></span></a>1.开始工作</h2>
+
+<p>要开始编译MiCarbon的源码，您可以查看 [Git 和 Repo]的使用方法→(<a href="http://source.android.com/source/version-control.html">http://source.android.com/source/version-control.html</a>).</p>
+
+<h2>
+<a name="create-the-directories" class="anchor" href="#create-the-directories"><span class="octicon octicon-link"></span></a>Create the Directories</h2>
+
+<h2>
+<a name="2%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95" class="anchor" href="#2%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95"><span class="octicon octicon-link"></span></a>2.创建目录</h2>
+
+<p>You will need to set up some directories in your build environment.
+你需要在你的编译环境中先设置某些目录</p>
+
+<p>To create them run:</p>
+
+<p>请打开终端并运行:</p>
+
+<pre><code>mkdir -p ~/bin
+mkdir -p ~/carbon
+</code></pre>
+
+<h2>
+<a name="install-the-repository" class="anchor" href="#install-the-repository"><span class="octicon octicon-link"></span></a>Install the Repository</h2>
+
+<h2>
+<a name="3%E5%AE%89%E8%A3%85repo" class="anchor" href="#3%E5%AE%89%E8%A3%85repo"><span class="octicon octicon-link"></span></a>3.安装"Repo"</h2>
+
+<p>Enter the following to download make executable the "repo" binary:</p>
+
+<p>接着输入以下命令来下载make可执行程序"repo"二进制文件</p>
+
+<pre><code>curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo &gt; ~/bin/repo
+
+chmod a+x ~/bin/repo
+</code></pre>
+
+<p>You may need to reboot for these changes to take effect. 
+Now enter the following to initialize the repository:
+你可能需要重启才能进行下一步操作
+现在输入下面的字符来初始化仓库</p>
+
+<pre><code>cd ~/carbon
+</code></pre>
+
+<p>Repositories:</p>
+
+<h2>
+<a name="%E4%BB%93%E5%BA%93" class="anchor" href="#%E4%BB%93%E5%BA%93"><span class="octicon octicon-link"></span></a>仓库</h2>
+
+<p>Before you continue --&gt; run this in the terminal</p>
+
+<h2>
+<a name="%E5%9C%A8%E4%BD%A0%E7%BB%A7%E7%BB%AD%E4%B9%8B%E5%89%8D----%E8%AF%B7%E5%9C%A8%E7%BB%88%E7%AB%AF%E4%B8%AD%E8%BF%90%E8%A1%8C%E4%BB%A5%E4%B8%8B%E5%91%BD%E4%BB%A4" class="anchor" href="#%E5%9C%A8%E4%BD%A0%E7%BB%A7%E7%BB%AD%E4%B9%8B%E5%89%8D----%E8%AF%B7%E5%9C%A8%E7%BB%88%E7%AB%AF%E4%B8%AD%E8%BF%90%E8%A1%8C%E4%BB%A5%E4%B8%8B%E5%91%BD%E4%BB%A4"><span class="octicon octicon-link"></span></a>在你继续之前 --&gt; 请在终端中运行以下命令</h2>
+
+<pre><code>repo init -u https://github.com/MiCarbon/android.git -b kk &amp;&amp; repo sync -f
+</code></pre>
+
+<p><em>由于GFW对Google source的封锁，所以加入-f命令来防止同步遇到错误时停止</em></p>
+
+<p>Building the System</p>
+
+<h2>
+<a name="%E7%BC%96%E8%AF%91%E7%B3%BB%E7%BB%9F" class="anchor" href="#%E7%BC%96%E8%AF%91%E7%B3%BB%E7%BB%9F"><span class="octicon octicon-link"></span></a>编译系统</h2>
+
+<p>在终端中输入以下字符来初始化编译环境</p>
+
+<pre><code>. build/envsetup.sh
+lunch
+</code></pre>
+
+<p>输入你编译的目标的数字序号以继续</p>
+
+<p>开始编译:</p>
+
+<pre><code>make carbon -j7 = 运行发布工具/运行优化工具
+make otapackage -j7 = 不运行发布工具/不运行优化工具
+</code></pre>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
