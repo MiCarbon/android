@@ -12,7 +12,7 @@
            sync-j="4" />
 
   <remote  name="cr"
-           fetch="https://github.com/MiCarbon/"
+           fetch="https://github.com/iCarbon/"
            sync-j="4" />
 
   <remote  name="tm"
