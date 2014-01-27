@@ -451,7 +451,7 @@
   <project path="hardware/qcom/display" name="LOSP/hardware_qcom_display" remote="gh" revision="kk" />
   <project path="hardware/qcom/display-legacy" name="LOSP/android_hardware_qcom_display-legacy" remote="gh" revision="kk" />
   <project path="hardware/qcom/display-legacy-caf" name="LOSP/hardware_qcom_display-legacy-caf" remote="gh" revision="kk" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cr" revision="kk" groups="pdk" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/media-legacy" name="LOSP/android_hardware_qcom_media-legacy" remote="gh" revision="kk" />
@@ -461,6 +461,4 @@
   <project path="device/xiaomi/msm8660-common" name="android_device_xiaomi_msm8660-common" remote="cr" revision="kk" />
   <!--  <project path="hardware/qcom/aries" name="LOSP/android_hardware_qcom_audio-aries" remote="gh" revision="kk" /> -->
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="cr" revision="kk" />
-  <project path="vendor/qcom" name="LOSP/proprietary_vendor_qcom" remote="gh" revision="jb43" />
-  <project path="vendor/broadcom" name="LOSP/proprietary_vendor_broadcom" remote="gh" revision="jb43" />
 </manifest>
