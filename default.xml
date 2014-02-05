@@ -272,7 +272,6 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="cr" revision="kk" groups="pdk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -461,4 +460,6 @@
   <project path="device/xiaomi/msm8660-common" name="android_device_xiaomi_msm8660-common" remote="cr" revision="kk" />
   <!--  <project path="hardware/qcom/aries" name="LOSP/android_hardware_qcom_audio-aries" remote="gh" revision="kk" /> -->
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="cr" revision="kk" />
+  <!-- LOSP repo -->
+  <project path="frameworks/native" name="LOSP/frameworks_native" remote="gh" revision="kk" groups="pdk" />
 </manifest>
