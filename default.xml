@@ -455,11 +455,11 @@
   <!-- iCarbon Devices -->
   <project path="device/xiaomi/mione_plus" name="android_device_xiaomi_mione_plus" remote="cr" revision="kk" />
   <!--  <project path="hardware/qcom/aries" name="LOSP/android_hardware_qcom_audio-aries" remote="gh" revision="kk" /> -->
-  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="cr" revision="kk" />
   <!-- LOSP repo -->
   <project path="device/xiaomi/msm8660-common" name="LOSP/android_device_xiaomi_msm8660-common" remote="gh" revision="kk" />
   <project path="external/wpa_supplicant_8" name="LOSP/android_external_wpa_supplicant_8" remote="gh" revision="kk" />
   <project path="frameworks/av" name="LOSP/frameworks_av" remote="gh" revision="kk" />
   <project path="frameworks/native" name="LOSP/frameworks_native" remote="gh" revision="kk" groups="pdk" />
   <project path="system/netd" name="LOSP/system_netd" remote="gh" revision="kk" groups="pdk" />
+  <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" remote="gh" revision="kk" />
 </manifest>
