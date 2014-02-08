@@ -3,53 +3,51 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>MiCarbon Project</title>
+
+    <title>iCarbon Project by iCarbon</title>
   </head>
 
   <body>
-    <div id="container">
+    <header>
       <div class="inner">
+        <h1>iCarbon Project</h1>
+        <h2>最新版本:v2.1,Nexus 4(暂无)</h2>
+        <a href="https://github.com/iCarbon/android" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
 
-        <header>
-          <h1>MiCarbon Project</h1>
-          <h2>最新版本：4.4 v2.0 / 4.3 v1.026</h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/MiCarbon/android/releases/download/v1.026/MICARBON-JB-v1.026-3.11.1-mione.zip" id="download-zip" class="button"><span>下载v1.026 (4.3)</span></a>
-          <a href="http://pan.baidu.com/s/1vLGWC" id="download-tar-gz" class="button"><span>下载v2.0 (4.4)</span></a>
-          <a href="http://www.miui.com/forum.php?mod=viewthread&tid=1386867" id="view-on-github" class="button"><span>查看MIUI论坛帖子</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
           <h1>
-<a name="micarbon-source" class="anchor" href="#micarbon-source"><span class="octicon octicon-link"></span></a>MiCarbon Source</h1>
+<a name="icarbon-source" class="anchor" href="#icarbon-source"><span class="octicon octicon-link"></span></a>iCarbon Source</h1>
 
 <h1>
-<a name="micarbon-%E6%BA%90%E4%BB%A3%E7%A0%81%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B" class="anchor" href="#micarbon-%E6%BA%90%E4%BB%A3%E7%A0%81%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B"><span class="octicon octicon-link"></span></a>MiCarbon 源代码简易教程</h1>
+<a name="icarbon-%E5%BC%80%E6%94%BE%E6%BA%90%E4%BB%A3%E7%A0%81" class="anchor" href="#icarbon-%E5%BC%80%E6%94%BE%E6%BA%90%E4%BB%A3%E7%A0%81"><span class="octicon octicon-link"></span></a>iCarbon 开放源代码</h1>
 
 <h2>
 <a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
 
 <h2>
-<a name="1%E5%BC%80%E5%A7%8B%E5%B7%A5%E4%BD%9C" class="anchor" href="#1%E5%BC%80%E5%A7%8B%E5%B7%A5%E4%BD%9C"><span class="octicon octicon-link"></span></a>1.开始工作</h2>
+<a name="%E5%BC%80%E5%A7%8B%E5%B7%A5%E4%BD%9C" class="anchor" href="#%E5%BC%80%E5%A7%8B%E5%B7%A5%E4%BD%9C"><span class="octicon octicon-link"></span></a>开始工作</h2>
 
-<p>要开始编译MiCarbon的源码，您可以查看 [Git 和 Repo]的使用方法→(<a href="http://source.android.com/source/version-control.html">http://source.android.com/source/version-control.html</a>).</p>
+<p>请先准备好编译环境，下载/更新必要的package后方可继续
+要了解如何初始化编译环境，请前往<a href="http://source.android.com/source/initializing.html">http://source.android.com/source/initializing.html</a></p>
 
 <h2>
 <a name="create-the-directories" class="anchor" href="#create-the-directories"><span class="octicon octicon-link"></span></a>Create the Directories</h2>
 
 <h2>
-<a name="2%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95" class="anchor" href="#2%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95"><span class="octicon octicon-link"></span></a>2.创建目录</h2>
+<a name="%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95" class="anchor" href="#%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95"><span class="octicon octicon-link"></span></a>创建目录</h2>
 
 <p>You will need to set up some directories in your build environment.
 你需要在你的编译环境中先设置某些目录</p>
@@ -66,13 +64,13 @@ mkdir -p ~/carbon
 <a name="install-the-repository" class="anchor" href="#install-the-repository"><span class="octicon octicon-link"></span></a>Install the Repository</h2>
 
 <h2>
-<a name="3%E5%AE%89%E8%A3%85repo" class="anchor" href="#3%E5%AE%89%E8%A3%85repo"><span class="octicon octicon-link"></span></a>3.安装"Repo"</h2>
+<a name="%E5%AE%89%E8%A3%85repo" class="anchor" href="#%E5%AE%89%E8%A3%85repo"><span class="octicon octicon-link"></span></a>安装"Repo"</h2>
 
 <p>Enter the following to download make executable the "repo" binary:</p>
 
 <p>接着输入以下命令来下载make可执行程序"repo"二进制文件</p>
 
-<pre><code>curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo &gt; ~/bin/repo
+<pre><code>curl http://commondatastorage.googleapis.com/git-repo-downloads/repo &gt; ~/bin/repo
 
 chmod a+x ~/bin/repo
 </code></pre>
@@ -95,7 +93,7 @@ Now enter the following to initialize the repository:
 <h2>
 <a name="%E5%9C%A8%E4%BD%A0%E7%BB%A7%E7%BB%AD%E4%B9%8B%E5%89%8D----%E8%AF%B7%E5%9C%A8%E7%BB%88%E7%AB%AF%E4%B8%AD%E8%BF%90%E8%A1%8C%E4%BB%A5%E4%B8%8B%E5%91%BD%E4%BB%A4" class="anchor" href="#%E5%9C%A8%E4%BD%A0%E7%BB%A7%E7%BB%AD%E4%B9%8B%E5%89%8D----%E8%AF%B7%E5%9C%A8%E7%BB%88%E7%AB%AF%E4%B8%AD%E8%BF%90%E8%A1%8C%E4%BB%A5%E4%B8%8B%E5%91%BD%E4%BB%A4"><span class="octicon octicon-link"></span></a>在你继续之前 --&gt; 请在终端中运行以下命令</h2>
 
-<pre><code>repo init -u https://github.com/MiCarbon/android.git -b kk &amp;&amp; repo sync -f
+<pre><code>repo init -u https://github.com/iCarbon/android.git -b kk &amp;&amp; repo sync -f
 </code></pre>
 
 <p><em>由于GFW对Google source的封锁，所以加入-f命令来防止同步遇到错误时停止</em></p>
@@ -105,27 +103,39 @@ Now enter the following to initialize the repository:
 <h2>
 <a name="%E7%BC%96%E8%AF%91%E7%B3%BB%E7%BB%9F" class="anchor" href="#%E7%BC%96%E8%AF%91%E7%B3%BB%E7%BB%9F"><span class="octicon octicon-link"></span></a>编译系统</h2>
 
-<p>在终端中输入以下字符来初始化编译环境</p>
+<p>Initialize the environment with the envsetup.sh script. Note that replacing "source" with a single dot saves a few characters, and the short form is more commonly used in documentation.
+执行envsetup.sh初始化环境，注意这里的"."可以用source和sh代替，但为了方便省事，我们采用点号。
+    . build/envsetup.sh
+    lunch</p>
 
-<pre><code>. build/envsetup.sh
-lunch
-</code></pre>
+<p>Enter the number of the build you want to start and press enter
+键入你要编译的设备并按下回车</p>
 
-<p>输入你编译的目标的数字序号以继续</p>
+<p>Build Code:
+编译开始:</p>
 
-<p>开始编译:</p>
-
-<pre><code>make carbon -j7 = 运行发布工具/运行优化工具
-make otapackage -j7 = 不运行发布工具/不运行优化工具
+<pre><code>make carbon -j7 = 运行打包器/运行优化
+make otapackage -j7 = 不运行打包器/不运行优化
 </code></pre>
         </section>
 
-        <footer>
-          MiCarbon SP is maintained by <a href="https://github.com/MiCarbon">MiCarbon</a><br>
-        </footer>
+        <aside id="sidebar">
+          <a href="https://github.com/iCarbon/android/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/iCarbon/android/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
 
-        
+          <p class="repo-owner"><a href="https://github.com/iCarbon/android"></a> is maintained by <a href="https://github.com/iCarbon">iCarbon</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
       </div>
     </div>
+
+  
   </body>
 </html>
