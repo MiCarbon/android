@@ -283,6 +283,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="cm" revision="cm-11.0" />
@@ -357,6 +358,7 @@
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="cm" revision="cm-11.0" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
+  <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" remote="cm" revision="cm-11.0" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
@@ -456,10 +458,8 @@
   <project path="device/xiaomi/msm8660-common" name="android_device_xiaomi_msm8660-common" remote="cr" revision="kk" />
   <!--  <project path="hardware/qcom/aries" name="LOSP/android_hardware_qcom_audio-aries" remote="gh" revision="kk" /> -->
   <!-- LOSP repo -->
-  <project path="packages/services/Telephony" name="LOSP/packages_services_Telephony" remote="gh" revision="kk" />
   <project path="external/wpa_supplicant_8" name="LOSP/android_external_wpa_supplicant_8" remote="gh" revision="kk" />
   <project path="frameworks/native" name="LOSP/frameworks_native" remote="gh" revision="kk" groups="pdk" />
-  <project path="frameworks/opt/telephony" name="LOSP/frameworks_opt_telephony" remote="gh" revision="kk" groups="pdk" />
   <project path="system/netd" name="LOSP/system_netd" remote="gh" revision="kk" groups="pdk" />
   <project path="vendor/xiaomi" name="LOSP/proprietary_vendor_xiaomi" remote="gh" revision="kk" />
 </manifest>
